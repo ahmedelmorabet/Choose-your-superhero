@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>CONTACT</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">CHOOSE YOUR SUPERHERO</a>
+        <nav>
+            <ul>
+                <li><a href="index.html"> HOME</a></li>
+                <li><a href="spiderman.html"> SPIDERMAN</a></li>
+                <li><a href="hulk.html">HULK</a></li>
+                <li><a href="ironman.html">IRONMAN</a></li>
+                <li><a href="other.html">OTHER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="inhoud">
+            <h1>CONTACT</h1>
+            Heeft u nog vragen of opmerkingen laat ze dan hier achter en ik neem zo snel mogelijk contact met op.
+        </div>
+
+        <br>
+        <form name="contact" method="POST" data-netlify="true">
+            <div class="form">
+                <label for="fname">Naam:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Achternaam:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">E-mail:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="phonenumber">Telefoonnummer:</label><br>
+                <input type="text" id="number" name="number">
+                <br><br><input type="radio" id="male" name="gender" value="male">
+                <label for="male">Man</label>
+                <br><input type="radio" id="female" name="gender" value="female">
+                <label for="female">Vrouw</label>
+                <br><br><label for="date">Geboortedatum:</label>
+                <br><input type="date" id="date" name="date">
+                <br><br><label for="comic">which comic do you prefer?:</label>
+                <select id="comic" name="comic">
+                    <option value="marokkaans">Marvel</option>
+                    <option value="nederlands">DC</option>
+                    <option value="turks">Manga</option>
+                    <option value="surinaams">Other</option>
+                </select>
+                <br><br><label for="text">Stel uw vraag:</label>
+                <br><input type="text" id="text" name="text">
+                <br><br><button type="submit">Verzend</button>
+                <input type="reset">
+            </div>
+        </form>
+    </main>
+
+
+    <footer>
+
+        <ul>
+            <li><a href="contact.html"> Contact</a></li>
+            <li><a href="FAQ"> FAQ</a></li>
+            <li><a href="Colofon">Colofon</a></li>
+            <li><a href="Cookies">Cookies</a></li>
+        </ul>
+        <div class="CR">
+            <h5>Copyright (©) 2021 Ahmed el Morabet</h5>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
